@@ -38,7 +38,7 @@ GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PWD = os.environ.get("GMAIL_APP_PWD", "")
 MAIL_TO = [x.strip() for x in os.environ.get("MAIL_TO", "").split(",") if x.strip()]
 FRED_KEY = os.environ.get("FRED_KEY", "")
-DASH = "https://market-dashboard-7hsncprqzkfytpx7a8ishb.streamlit.app"
+DASH = "https://dashboard-ggnvtbfp6hekvceepzyjgx.streamlit.app/"
 LOGO = os.path.join(os.path.dirname(__file__) or ".", "logo.png")
 # Latest published India figures (no free live API) — keep in sync with app.py.
 # (latest, period, previous) so the table can show the real month-on-month move.
